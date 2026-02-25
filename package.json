@@ -69,6 +69,8 @@
     "shiki": "workspace:*",
     "simple-git-hooks": "catalog:cli",
     "taze": "catalog:cli",
+    "tm-grammars": "catalog:inlined",
+    "tm-themes": "catalog:inlined",
     "tsx": "catalog:cli",
     "typescript": "catalog:cli",
     "unbuild": "catalog:bundling",

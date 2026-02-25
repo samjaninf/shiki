@@ -435,6 +435,12 @@ importers:
       taze:
         specifier: catalog:cli
         version: 19.9.2
+      tm-grammars:
+        specifier: catalog:inlined
+        version: 1.31.0
+      tm-themes:
+        specifier: catalog:inlined
+        version: 1.12.0
       tsx:
         specifier: catalog:cli
         version: 4.21.0

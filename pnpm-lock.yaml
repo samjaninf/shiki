@@ -312,6 +312,12 @@ importers:
       '@shikijs/engine-oniguruma':
         specifier: workspace:*
         version: link:packages/engine-oniguruma
+      '@shikijs/langs':
+        specifier: workspace:*
+        version: link:packages/langs
+      '@shikijs/langs-precompiled':
+        specifier: workspace:*
+        version: link:packages/langs-precompiled
       '@shikijs/markdown-it':
         specifier: workspace:*
         version: link:packages/markdown-it
@@ -321,6 +327,9 @@ importers:
       '@shikijs/rehype':
         specifier: workspace:*
         version: link:packages/rehype
+      '@shikijs/themes':
+        specifier: workspace:*
+        version: link:packages/themes
       '@shikijs/transformers':
         specifier: workspace:*
         version: link:packages/transformers

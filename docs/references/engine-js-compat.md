@@ -248,7 +248,7 @@ In some edge cases, it's not guaranteed that the highlighting will be 100% the s
 | zenscript          | ✅ OK           |                21 |               - |      |
 | zig                | ✅ OK           |                51 |               - |      |
 
-###### Table Field Explanations
+### Table Field Explanations
 
 - **Highlight Match**: Whether the highlighting results matched with the WASM engine for the [sample snippet](https://github.com/shikijs/textmate-grammars-themes/tree/main/samples).
 - **Patterns Parsable**: Number of regex patterns that can be parsed by the JavaScript RegExp engine.

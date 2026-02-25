@@ -42,6 +42,7 @@
     "@vitest/coverage-v8": "catalog:testing",
     "ansi-sequence-parser": "catalog:inlined",
     "ansis": "catalog:prod",
+    "baseline-browser-mapping": "catalog:bundling",
     "bumpp": "catalog:cli",
     "diff-match-patch-es": "catalog:testing",
     "esbuild": "catalog:bundling",

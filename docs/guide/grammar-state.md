@@ -25,7 +25,7 @@ Now Shiki would highlight correctly as it knows to start as the type annotation.
 
 <img width="223" alt="image" src="https://github.com/shikijs/shiki/assets/11247099/c896c2ae-2a88-428b-9d06-2d2552eaae8b">
 
-### Grammar Context Code
+## Grammar Context Code
 
 For one-off grammar context shifting, we also provide a shorthand by the `grammarContextCode` option:
 

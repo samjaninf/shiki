@@ -87,6 +87,7 @@
     "vitepress-plugin-mermaid": "catalog:docs",
     "vitest": "catalog:testing",
     "vitest-package-exports": "catalog:testing",
+    "vue": "catalog:docs",
     "vue-tsc": "catalog:cli",
     "wrangler": "catalog:cli"
   },
@@ -111,6 +112,7 @@
     "typescript": "catalog:cli",
     "unified": "catalog:integrations",
     "vite": "catalog:bundling",
+    "vitepress": "catalog:docs",
     "vscode-oniguruma": "catalog:inlined"
   },
   "simple-git-hooks": {

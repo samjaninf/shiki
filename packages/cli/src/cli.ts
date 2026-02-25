@@ -13,7 +13,7 @@ export function isUrl(path: string): boolean {
 export function getExtFromUrl(url: string): string {
   try {
     const pathname = new URL(url).pathname
-    return parse(pathname).ext.slice(1)
+    return parse(pathname).ext.slice(1).toLowerCase()
   }
   catch {
     return ''
@@ -32,7 +32,7 @@ export async function readSource(path: string): Promise<{ content: string, ext: 
   }
   else {
     const content = await fs.readFile(path, 'utf-8')
-    const ext = parse(path).ext.slice(1)
+    const ext = parse(path).ext.slice(1).toLowerCase()
     return { content, ext }
   }
 }
@@ -102,7 +102,7 @@ export async function run(
 
   const codes = await Promise.all(files.map(async (path) => {
     const { content, ext } = await readSource(path)
-    const lang = options.lang || ext
+    const lang = (options.lang || ext).toLowerCase()
     if (options.format === 'html') {
       const { codeToHtml } = await import('shiki')
       return await codeToHtml(content, {

@@ -47,6 +47,7 @@
     "./gruvbox-light-medium": "./dist/gruvbox-light-medium.mjs",
     "./gruvbox-light-soft": "./dist/gruvbox-light-soft.mjs",
     "./horizon": "./dist/horizon.mjs",
+    "./horizon-bright": "./dist/horizon-bright.mjs",
     "./houston": "./dist/houston.mjs",
     "./kanagawa-dragon": "./dist/kanagawa-dragon.mjs",
     "./kanagawa-lotus": "./dist/kanagawa-lotus.mjs",

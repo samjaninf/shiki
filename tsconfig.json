@@ -17,6 +17,7 @@
       "@shikijs/vitepress-twoslash/client": ["./packages/vitepress-twoslash/src/client.ts"],
       "@shikijs/vitepress-twoslash": ["./packages/vitepress-twoslash/src/index.ts"],
       "@shikijs/markdown-it": ["./packages/markdown-it/src/index.ts"],
+      "@shikijs/markdown-exit": ["./packages/markdown-exit/src/index.ts"],
       "@shikijs/types": ["./packages/types/src/index.ts"],
       "@shikijs/engine-javascript": ["./packages/engine-javascript/src/index.ts"],
       "@shikijs/engine-oniguruma/wasm-inline": ["./packages/engine-oniguruma/src/wasm-inline.ts"],

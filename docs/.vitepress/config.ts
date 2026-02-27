@@ -39,6 +39,7 @@ const REFERENCES = [
 const INTEGRATIONS = [
   { text: 'TypeScript Twoslash', link: '/packages/twoslash' },
   { text: 'markdown-it', link: '/packages/markdown-it' },
+  { text: 'markdown-exit', link: '/packages/markdown-exit' },
   { text: 'Rehype', link: '/packages/rehype' },
   { text: 'Monaco Editor', link: '/packages/monaco' },
   { text: 'VitePress', link: '/packages/vitepress' },

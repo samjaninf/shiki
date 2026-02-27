@@ -164,6 +164,9 @@ catalogs:
     magic-string:
       specifier: ^0.30.21
       version: 0.30.21
+    markdown-exit:
+      specifier: ^1.0.0-beta.8
+      version: 1.0.0-beta.8
     markdown-it:
       specifier: ^14.1.1
       version: 14.1.1
@@ -647,6 +650,19 @@ importers:
       tm-grammars:
         specifier: catalog:inlined
         version: 1.31.0
+
+  packages/markdown-exit:
+    dependencies:
+      markdown-exit:
+        specifier: catalog:integrations
+        version: 1.0.0-beta.8
+      shiki:
+        specifier: workspace:*
+        version: link:../shiki
+    devDependencies:
+      '@shikijs/transformers':
+        specifier: workspace:*
+        version: link:../transformers
 
   packages/markdown-it:
     dependencies:
@@ -3786,6 +3802,9 @@ packages:
 
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
+
+  markdown-exit@1.0.0-beta.8:
+    resolution: {integrity: sha512-LuwW1iurvRspcUJlgMk/QBC2is+aOqRDwseGQA3wYrUwadVvMYpxazx6ZKxxyIkLuQhV40M/3E4lU4qIavsAlA==}
 
   markdown-it-async@2.2.0:
     resolution: {integrity: sha512-sITME+kf799vMeO/ww/CjH6q+c05f6TLpn6VOmmWCGNqPJzSh+uFgZoMB9s0plNtW6afy63qglNAC3MhrhP/gg==}
@@ -7883,6 +7902,14 @@ snapshots:
       semver: 7.7.4
 
   mark.js@8.11.1: {}
+
+  markdown-exit@1.0.0-beta.8:
+    dependencies:
+      entities: 7.0.1
+      linkify-it: 5.0.0
+      mdurl: 2.0.0
+      punycode.js: 2.3.1
+      uc.micro: 2.1.0
 
   markdown-it-async@2.2.0:
     dependencies:

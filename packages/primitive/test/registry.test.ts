@@ -1,6 +1,6 @@
-import { createShikiPrimitiveAsync } from '@shikijs/primitive'
+import { createJavaScriptRegexEngine } from '@shikijs/engine-javascript'
 import { describe, expect, it } from 'vitest'
-import { createJavaScriptRegexEngine } from '../../engine-javascript/src/index'
+import { createShikiPrimitiveAsync } from '../src'
 
 describe('repro issue', () => {
   it('should throw error when missing embeddedLanguages', async () => {

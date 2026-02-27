@@ -1,6 +1,6 @@
 import type { ThemeRegistrationResolved } from '@shikijs/types'
 import { describe, expect, it } from 'vitest'
-import { tokenizeAnsiWithTheme } from '../src/highlight/code-to-tokens-ansi'
+import { tokenizeAnsiWithTheme } from './code-to-tokens-ansi'
 
 describe('aNSI color dimming', () => {
   const mockTheme: ThemeRegistrationResolved = {
